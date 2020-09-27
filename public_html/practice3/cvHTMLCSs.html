@@ -5,60 +5,87 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>Резюме HTML</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div><h1>Daniil Zymenok</h1></div>
-        <div><img src="img/photo_2020-02-08_01-08-48.jpg" width="100" height="200" alt="my pic"/></div>
-        <div><h2>student</h2></div>
-        <div><p>I love working and learning new thigns</p></div>
-        <div><p>dzimenok01@gmail.com</p></div>
-        <div><p>Chernihiv,Ukraine</p></div>
-        <div><p><a target="_blank" href="http://github.com/Zimenokk">GitHub</a></p></div>
-        <div><p>0939156307</p></div>
-        <div><p>linkedin.com/in/daniil-zymenok-67a00b18a</p></div>
-        <div><p><a target="_blank" href="http://instagram.com/zimenokk">Instagram</a></p></div>
-        <div><h2>Education</h2></div>
-        <div><h3>Full secondary education</h3></div>
-        <div><p>Chernihiv physics and mathematics Lyceym №15</p></div>
-        <div><h6>09/2008-05/2019</h6></div>
-        <div><h6>Chernihiv,Ukraine</h6></div>
-        <div><h3>Network and internet technologies</h3></div>
-        <div><p>Taras Shevchenko National University of Kyiv</p></div>
-        <div><h6>09/2019-Present</h6></div>
-        <div><h6>Kyiv,Ukraine</h6></div>
-        <div><h2>Skills</h2></div>
-        <div><p>sociability</p></div>
-        <div><p>teamwork</p></div>
-        <div><p>perseverance</p></div>
-        <div><p>Public speaking</p></div>
-        <div><p>MS Office</p></div>
-        <div><p>working with different IDE's</p></div>
-        <div><p>Python</p></div>
-        <div><p>C++</p></div>
-        <div><p>C#</p></div>
-        <div><p>HTML5</p></div>
-        <div><p>CSS</p></div>
-        <div><p>Adobe Photoshop</p></div>
-        <div><p>Adobe Illustrator</p></div>
-        <div><h2>Skills</h2></div>
-        <div><h2>Certificates</h2></div>
-        <div><p>Cisco CCNA 1(09/2019-Present)</p></div>
-        <div><h2>Languages</h2></div>
-        <div><p>English</p></div>
-        <div><h5>Professional Working Proficiency</h5></div>
-        <div><p>Russian</p></div>
-        <div><h5>Native or Bilingual Proficiency</h5></div>
-        <div><p>Ukrainian</p></div>
-        <div><h5>Native or Bilingual Proficiency</h5></div>
-        <div><h2>Interests</h2></div>
-        <div><p>Python develop</p></div>
-        <div><p>WebDev</p></div>
-        <div><p>Blockchain technologies</p></div>
-        <div><p>interviews</p></div>
-        <div><p>self-development</p></div>
-    </body>
+
+<head>
+    <title>Резюме HTML+CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/styleP3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="first">
+
+        <h1 class="name">Daniil Zymenok</h1>
+        <img class="photo" src="..//practice3/img/квадрат.jpg" alt="my pic" />
+        <h2 class="Stud">Student</h2>
+        <p class="intro">I love working and learning new things</p>
+
+    </div>
+    <div class="links">
+        <ul class="list1">
+            <li><img class="mailPic" src="..//practice3/img/письмо.jpg" alt=""> dzimenok01@gmail.com</li>
+            <li class="phoneNum"><img src="..//practice3/img/телефон.png" alt="" class="phone"> 0939156307</li>
+            <li><img class="location" src="..//practice3/img/placeholder.png" alt=""> Chernihiv, Ukraine</li>
+            <li><img src="..//practice3/img/linkedin.png" alt="" class="linkedin"> linkedin>linkedin.com/in/daniil-zymenok-67a00b18a</li>
+            <li><img src="..//practice3/img/github_icon.png" alt="" class="gitPic"> github.com/Zimenokk</li>
+            <li><img src="..//practice3/img/instagram.png" alt="" class="inst"> instagram.com/zimenokk</li>
+        </ul>
+    </div>
+    <div class="allInfo">
+        <div class="Education">
+            <p class="Educ">Education</p>
+            <p class="fullSec">Full secondary education</p>
+            <p>Chernihiv physics and mathematics Lyceym №15</p>
+            <p class="dates">09/2008-05/2019</p>
+            <p class="Cher">Chernihiv,Ukraine</p>
+            <p class="univers">Network and internet technologies</p>
+            <p>Taras Shevchenko National University of Kyiv</p>
+            <p class="dates">09/2019-Present</p>
+            <p class="Cher">Kyiv,Ukraine</p>
+        </div>
+
+        <div class="skillsMain">
+            <p class="Educ">Skills</p>
+            <p class=soci>sociability</p>
+            <p class="teamwork">teamwork</p>
+            <p class="persev">perseverance</p>
+            <p class="pubsp">Public speaking</p>
+            <p class="Office">MS Office</p>
+            <p class="ide">working with different IDE's</p>
+            <p class="Python">Python</p>
+            <p class="cPlus">C++</p>
+            <p class="cSharp">C#</p>
+            <p class="html">HTML5</p>
+            <p class="css">CSS</p>
+            <p class="Adobe">Adobe Photoshop</p>
+            <p class="Illustrator">Adobe Illustrator</p>
+        </div>
+        <div class="Certif">
+            <p class="Educ">Certificates</p>
+            <p>Cisco CCNA 1(09/2019-Present)</p>
+        </div>
+        <div class="languages">
+            <p class="Educ">Languages</p>
+            <p>English</p>
+            <p class="prof">Professional Working Proficiency</p>
+            <div class="russian">
+                <p class="rus">Russian</p>
+                <p class="prof">Native or Bilingual Proficiency</p>
+            </div>
+            <div class="ukrainian">
+                <p>Ukrainian</p>
+                <p class="prof">Native or Bilingual Proficiency</p>
+            </div>
+        </div>
+        <div class="interests">
+            <p class="Educ">Interests</p>
+            <p class="pyDev">Python develop</p>
+            <p class="WebDev">WebDev</p>
+            <p class="crypto">Blockchain technologies</p>
+            <p class="int">watching interviews</p>
+            <p class="selfDev">self-development</p>
+        </div>
+</body>
+
 </html>
