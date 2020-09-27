@@ -90,8 +90,9 @@ h6 {
 
 /*--------------------*/
 
-.body {
+body {
     font-family: serif;
+    color: red;
 }
 
 .first {
